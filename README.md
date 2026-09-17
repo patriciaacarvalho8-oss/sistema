@@ -71,7 +71,7 @@ Presenças e faltas
 - Permite cadstrar, editar, listar e deletra alunos, matriculas e funcionarios 
 
 ## Modelo de Negócio:
- ![Business Model Canvas](image/bussiness-model-canva.png) 
+ ![Business Model Canvas](image/bussiness-model-Canva.png) 
 
  ## REQUISITOS
  1. Requisitos Funcionais:
@@ -134,3 +134,71 @@ Presenças e faltas
 - O sistema deve proteger os dados contra acessos não autorizados
 - O sistema deve ser compatível com diferentes sistemas operacionais (Windows, Android, iOS)
 
+## REGRAS DE NEGÓCIO:
+- CPF de cada aluno deve ser único
+- CPF de cada funcionário deve ser único
+- Email de cada funcionário deve ser único
+- A matrícula de cada aluno deve ser única
+- Nome de cada curso deve ser único
+- Impedir exclusão de cursos que tenham alunos matriculados
+- Impedir exclusão de alunos que estejam matriculados em 1 ou mais cursos
+
+## casos de uso:
+![Caso de uso](images/casoDeUso.png)
+
+## Classes:
+![Classes](images/classes.png)
+
+## Sequencias: 
+-Login
+![Login](images/sequencia.png)
+
+-Cadastro aluno: 
+![Cadastro aluno](images/cadastroAluno.png)
+-Cadastro curso: 
+![Cadastro curso](images/cadastroCurso.png)
+-Cadastro funcionario: 
+![Cadastro funcionario](images/cadastro.png)
+
+-Listar aluno: 
+![Listar aluno](images/listarAlunos.png)
+-Listar curso: 
+![Listar curso](images/listarCursos.png)
+-Listar funcionario: 
+![Listar funcionario](images/listarFuncionarios.png)
+
+-Mostrar aluno: 
+![Mostrar aluno](images/mostrarAlunos.png)
+-Mostrar curso: 
+![Mostrar curso](images/mostrarCursos.png)
+-Mostrar funcionario: 
+![Mostrar funcionario](images/mostrarFuncionarios.png)
+
+-Editar aluno: 
+![Editar aluno](images/editarAlunos.png)
+-Editar curso: 
+![Editar curso](images/editarCursos.png)
+-Editar funcionario: 
+![Editar funcionario](images/editarFuncionarios.png)
+
+-Excluir aluno: 
+![Excluir aluno](images/excluirAlunos.png)
+-Excluir curso: 
+![Excluir curso](images/excluirCursos.png)
+-Excluir funcionario: 
+![Excluir funcionario](images/excluirFuncionarios.png)
+
+-Buscar alunos pelo nome: 
+![Buscar alunos pelo nome](images/alunosNome.png)
+-Buscar alunos pelo cpf: 
+![Buscar alunos pelo cpf](images/alunosCpf.png)
+-Buscar funcionarios pelo nome: 
+![Buscar funcionarios pelo nome](images/funcionariosnome.png)
+-Buscar funcionarios pelo cpf: 
+![Buscar funcionarios pelo cpf](images/funcionariosCpf.png)
+
+-Realizar matrículas: 
+![Realizar matrículas](images/RealizarMatriculas.png)
+
+-Excluir matriculas: 
+![Excluir matriculas](images/excluirMatriculas.png)
